@@ -2,8 +2,6 @@
 layout: archive
 title: "Undergraduate Course Study Path"
 permalink: /ugcourses/
-redirect_from:
-  - /ugcourses/
 author_profile: true
 classes: wide
 ---

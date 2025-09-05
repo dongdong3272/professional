@@ -2,8 +2,6 @@
 layout: archive
 title: "Research & Projects"
 permalink: /research_expr/
-redirect_from:
-  - /research_expr/
 classes: wide
 author_profile: true
 ---
