@@ -3,7 +3,7 @@ layout: archive
 title: "Graduate Course Study Path"
 permalink: /pgcourses/
 redirect_from:
-  - /course
+  - /pgcourses/
 author_profile: true
 classes: wide
 ---

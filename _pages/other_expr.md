@@ -3,7 +3,7 @@ layout: archive
 title: "Other Experience"
 permalink: /other_expr/
 redirect_from:
-  - /experience
+  - /other_expr/
 author_profile: true
 classes: wide
 ---

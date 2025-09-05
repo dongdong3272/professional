@@ -3,7 +3,7 @@ layout: archive
 title: "Work Experience"
 permalink: /work_expr/
 redirect_from:
-  - /work
+  - /work_expr/
 author_profile: true
 classes: wide
 ---

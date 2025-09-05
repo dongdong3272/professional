@@ -3,7 +3,7 @@ layout: archive
 title: "Publications"
 permalink: /publication/
 redirect_from:
-  - /publication
+  - /publication/
 author_profile: true
 classes: wide
 ---
