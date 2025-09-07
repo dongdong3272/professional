@@ -103,7 +103,7 @@ analytics:
 author:
   name: "LIANG Houdong (Louis)"
   avatar: "/assets/images/avatar.jpg"
-  bio: "MS in Computer Science at UCSD, Software Engineer Intern at WeRide.ai, Frontend Web Developer Intern at Smart Twigs & Inspur Group"
+  bio: "Fullstack Developer@WeRide.ai, MSCS@UCSD, BSc@HKUST"
   location: "San Diego, CA, United States"
   email: "holiang@ucsd.edu"
   links:
@@ -125,6 +125,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/dongdong_louis/"
+    - label: "X"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://x.com/dong_dong001"
 
 # Site Footer
 footer:
@@ -274,4 +277,4 @@ defaults:
       share: true
       related: true
 
-github: [metadata] 
+github: [metadata]
