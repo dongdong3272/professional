@@ -6,22 +6,33 @@ author_profile: true
 classes: wide
 ---
 
-#### 1. **WeRide.ai** _(Jun. 2024 – Sep. 2024)_
+#### 1. **WeRide.ai** _(May. 2025 – Present)_
 
-##### _(Position: Software Engineer Intern | Technologies and skills: React, TypeScript, JavaScript, MobX, Phabricator)_
+##### _(Position: Full Stack Software Engineer | Technologies and skills: React, TypeScript, C++, Python, K8s, Bazel, Helm)_
 
-- **Enhanced PointCloud Renderer**: Integrated OpenCV’s colormaps into the pointCloud renderer, significantly
-improving the visualization of mbag data by supporting advanced colormap templates.
+- **Auto Triage Code Generator**:  Developed an LLM-powered agent with LangChain enabling non-expert users to identify and triage algorithm issues, reducing debugging time by over 50%.
 
-- **Developed Interactive 3D Contour and Marker System**: Created a new user interaction system that highlights
-contours on 3D shapes when hovered. Implemented unique context menus and distinct click handlers for different
-markers to improve user experience.
+- **K8s Cluster Migration**: Unified ADC and master environments, consolidated build/upload/deployment scripts, and ensured continuous cluster availability with zero downtime.
 
-- **Redesigned Global Store Structure**: Improved the application’s state management by migrating from JavaScript
-to TypeScript and leveraging the MobX framework. Replaced broken library calls and optimized the business logic
-across multiple stores for better performance and maintainability.
+- **No-Comms Pipeline**: Designed a lightweight intra-process messaging mechanism to bypass shared queues, improving memory efficiency by 65.45\% and enhancing system responsiveness.
 
-#### 2. **Smart Twigs Consultancy Group** _(Jan. 2024 – Mar. 2024)_
+- **Routing Server & SVG Movement Preview**: Built a C++ routing server generating timestamped tracking points and kinematic data, enabling frontend visualization of vehicle movement via SVG with velocity and acceleration charts, improving scenario designing efficiency by over 80%.
+
+#### 2. **WeRide.ai** _(Jun. 2024 – Sep. 2024, Jan. 2025 - Mar.2025)_
+
+##### _(Position: Software Engineer Intern | Technologies and skills: React, TypeScript, MobX)_
+
+- **Permission Control System**: Designed a hierarchical permission control system with a tree structure.
+
+- **Dual Video Player**: Developed a dual video player to synchronize and compare mbag data at specified timestamps, allowing the perception team to compare simulation results with original data.
+
+- **PointCloud Renderer**: Integrated OpenCV colormaps into the PointCloud renderer, enhancing 3D model visualization with improved sensitivity to subtle intensity variations.
+
+- **Interactive 3D Contour & Marker System**: Developed a user interaction system with contour highlights, custom context menus, and distinct click handlers for enhancing 3D shape visualization and interaction.
+
+- **State Management Enhancement**
+
+#### 3. **Smart Twigs Consultancy Group** _(Jan. 2024 – Mar. 2024)_
 
 ##### _(Position: Front End Engineering Intern | Technologies and skills: React, TypeScript, Figma, Plasmo, Python, Docker)_
 
@@ -35,7 +46,7 @@ design interfaces into effective React components.
 and test functionalities across approximately 40 e-commerce websites, improving test speed by more than 10 times
 compared to manual testing.
 
-#### 3. **Inspur Group (China’s largest AI server maker)** _(Jun. 2023 – Aug. 2023)_
+#### 4. **Inspur Group (China’s largest AI server maker)** _(Jun. 2023 – Aug. 2023)_
 
 ##### _(Position: Software Engineer Intern | Technologies and skills: React, Django, Vue, JavaScript, Python, Docker)_
 

@@ -105,7 +105,7 @@ author:
   avatar: "/assets/images/avatar.jpg"
   bio: "Fullstack Developer@WeRide.ai, MSCS@UCSD, BSc@HKUST"
   location: "San Diego, CA, United States"
-  email: "holiang@ucsd.edu"
+  # email: "holiang@ucsd.edu"  # Commented out to avoid duplicate email link
   links:
     - label: "Email(Work)"
       icon: "fas fa-fw fa-envelope-square"
