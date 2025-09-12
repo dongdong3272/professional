@@ -6,11 +6,11 @@ tags:
   - job-seeking
 ---
 
-# Problem
+## Problem
 
 Please refer to to LeetCode Problem [1851. Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/).
 
-# Solution 1: Naive Method (OT)
+## Solution 1: Naive Method (OT)
 
     def minInterval(self, intervals: List[List[int]], queries: List[int]) -> List[int]:
 	    # sort the intervals
@@ -38,7 +38,7 @@ Please refer to to LeetCode Problem [1851. Minimum Interval to Include Each Quer
 **Limitations:** 
 1. O(n^2) time complexity is not practical when n is really large.
 
-# Solution 2: Still Naive Method (OT)
+## Solution 2: Still Naive Method (OT)
 
     def minInterval(self, intervals: List[List[int]], queries: List[int]) -> List[int]:
 	    lookup = [-1] * (10**7 + 1)
@@ -59,7 +59,7 @@ Please refer to to LeetCode Problem [1851. Minimum Interval to Include Each Quer
 **Limitations:** 
 1. k can easily be a large number, leading to exploding time and space complexity.
 
-# Solution 3: Binary search in all queries (~2000ms)
+## Solution 3: Binary search in all queries (~2000ms)
 
 	def minInterval(self, intervals: List[List[int]], queries: List[int]) -> List[int]:
 		sorted_queries = sorted(enumerate(queries), key = lambda x: x[1])
@@ -120,7 +120,7 @@ In the Solution 2, we use a lookup list to store the answers for all possible qu
 1. Assume that intervals will never change after initial setup.
 2. Assume that queries will never change after initial setup.
 
-# Solution 4: Min-heap (~1400ms)
+## Solution 4: Min-heap (~1400ms)
 
     def minInterval(self, intervals: List[List[int]], queries: List[int]) -> List[int]:
         # sort the intervals by the left
@@ -175,7 +175,7 @@ In the Solution 2, we use a lookup list to store the answers for all possible qu
 	    return [res[q] for q in queries]
 
 
-# Solution 5: Segment Tree (stream algorithm)
+## Solution 5: Segment Tree (stream algorithm)
 
     class SegmentTreeNode:
         def __init__(self, left, right):

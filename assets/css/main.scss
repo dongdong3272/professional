@@ -6,3 +6,99 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.archive .taxonomy__section .archive__subtitle {
+  display: none !important;
+}
+
+/* iPhone 13 Responsive Optimizations */
+@media only screen and (max-width: 390px) {
+  /* Override base html font-size for smaller screens */
+  html {
+    font-size: 12px !important; /* Reduced from 16px */
+  }
+
+  .author__content {
+    font-size: 13px !important;
+  }
+
+  /* Override specific archive paragraph styles */
+  .archive p,
+  ul {
+    font-size: 11px !important; /* Reduced from 17px */
+  }
+
+  /* Reduce font size for general content */
+  .page__content {
+    p,
+    li,
+    dl {
+      font-size: 11px !important;
+    }
+  }
+
+  /* Override other archive font sizes */
+  .archive h1,
+  h2,
+  h4 {
+    font-size: 11px !important;
+  }
+  .archive h5 {
+    margin-top: 0.5em !important;
+    font-size: 10px !important;
+  }
+  .archive h6 {
+    margin-top: 0.5em !important;
+    font-size: 9px !important;
+  }
+
+  .archive #page-title {
+    font-size: 13px !important;
+  }
+
+  .archive pre {
+    line-height: 1.1 !important;
+    font-size: 10px !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 1em !important;
+  }
+
+  .archive pre code {
+    line-height: 1.1 !important;
+    font-size: 10px !important;
+  }
+
+  .archive #campus-experience,
+  #off-campus-experience,
+  #exchange-experience,
+  #spring,
+  #summer,
+  #fall,
+  #fall-1,
+  #fall-2,
+  #fall-3,
+  #spring,
+  #spring-1,
+  #spring-2,
+  #spring-3,
+  #summer,
+  #summer-1,
+  #summer-2,
+  #summer-3 {
+    font-size: 11px !important;
+  }
+
+  .archive #open-sourced-course-assignments-project-repositories {
+    font-size: 12px !important;
+  }
+
+  #main {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .page__hero--overlay .wrapper {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}

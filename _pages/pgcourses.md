@@ -13,10 +13,10 @@ This is the course history during my graduate study at University of California,
 ##### Fall
 
 ```angular2html
-CSE202 	    4   Algorithm Design and Analysis
-CSE250A     4   Probabilistic Reason&Learning
-CSE258 	    4   Recommender Sys&Web Mining
-CSE290 	    1   Sem/Computer Sci & Engineering
+CSE202      4   Algorithm Design and Analysis
+CSE250A     4   Probabilistic Reasoning & Learning
+CSE258      4   Recommender Sys&Web Mining
+CSE290      1   Sem/Computer Sci & Engineering
 ```
 
 ##### Winter
@@ -27,7 +27,7 @@ CSE251U     4   Unsupervised Learning
 CSE257 	    4   Search and Optimization
 ```
 
-### Spring
+##### Spring
 
 ```angular2html
 CSE127 	    4   Intro to Computer Security

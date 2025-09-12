@@ -6,12 +6,12 @@ tags:
   - job-seeking
 ---
 
-# Problem
+## Problem
 
 Please refer to to LeetCode Problem [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/).
 
 
-# Solution 1: Double DP
+## Solution 1: Double DP
 
     def isMatch(self, s: str, p: str) -> bool:
         m, n = len(s), len(p)
@@ -45,7 +45,7 @@ Please refer to to LeetCode Problem [44. Wildcard Matching](https://leetcode.com
         return ans[0][0]
 
 
-# Solution 2: Iteration with Cache
+## Solution 2: Iteration with Cache
 
     def isMatch(self, s: str, p: str) -> bool:
         m, n = len(s), len(p)

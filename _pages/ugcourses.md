@@ -138,18 +138,18 @@ HUMA2050    3   Classical Chinese
 
 ### Open-Sourced Course Assignments/ Project Repositories:
 
-##### COMP2012H: Honors Object-Oriented Programming and Data Structures: [Tilt To Live(Github)](https://github.com/yuankeyu/TiltToLive_H10-)
+###### COMP2012H: Honors Object-Oriented Programming and Data Structures: [Tilt To Live(Github)](https://github.com/yuankeyu/TiltToLive_H10-)
 
-##### COMP3111: Software Engineering: [Newborn Name Recommendation System(Github)](https://github.com/Zhang-JK/COMP3111-T22)
+###### COMP3111: Software Engineering: [Newborn Name Recommendation System(Github)](https://github.com/Zhang-JK/COMP3111-T22)
 
-##### ITP303: Full-Stack Web Development: [ourDeal(Github)](https://github.com/dongdong3272/ITP303Project), [ourDeal(Website)](http://mydeal-dongdong.000webhostapp.com/home/home.php)
+###### ITP303: Full-Stack Web Development: [ourDeal(Github)](https://github.com/dongdong3272/ITP303Project), [ourDeal(Website)](http://mydeal-dongdong.000webhostapp.com/home/home.php)
 
-##### ITP439: Compiler Development: [USCC Complier(Github)](https://github.com/itp439-20221/uscc-dongdong3272)
+###### ITP439: Compiler Development: [USCC Complier(Github)](https://github.com/itp439-20221/uscc-dongdong3272)
 
-##### ITP368: Programming Graphical User Interfaces: [2048 Game(Github)](https://github.com/dongdong3272/ITP368Project)
+###### ITP368: Programming Graphical User Interfaces: [2048 Game(Github)](https://github.com/dongdong3272/ITP368Project)
 
-##### COMP5331: Knowledge Discovery in Databases: [NollaFraud(Github)](https://github.com/C1rF/NollaFraud)
+###### COMP5331: Knowledge Discovery in Databases: [NollaFraud(Github)](https://github.com/C1rF/NollaFraud)
 
-##### COMP4521: Mobile Application Development: [JMatch(Github)](https://github.com/dongdong3272/COMP4521-JMatch)
+###### COMP4521: Mobile Application Development: [JMatch(Github)](https://github.com/dongdong3272/COMP4521-JMatch)
 
-##### COMP4981: Final Year Project: [VisualNeo(Github)](https://github.com/C1rF/VisualNeo)
+###### COMP4981: Final Year Project: [VisualNeo(Github)](https://github.com/C1rF/VisualNeo)
