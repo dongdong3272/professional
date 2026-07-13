@@ -4,15 +4,9 @@ main:
     url: /
   - title: "Work Experience"
     url: /work_expr/
-  - title: "Reasearch & Projects"
+  - title: "Publications"
+    url: /publication/
+  - title: "Research & Projects"
     url: /research_expr/
   - title: "Posts"
     url: /posts/
-  - title: "Publication"
-    url: /publication/
-  - title: "Leadership & Extracurricular"
-    url: /other_expr/
-  - title: "PG courses"
-    url: /pgcourses/
-  - title: "UG courses"
-    url: /ugcourses/

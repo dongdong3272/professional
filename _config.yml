@@ -16,11 +16,11 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "en-US"
-title: "LIANG Houdong 梁厚栋 Louis"
+title: "Houdong Liang 梁厚栋 Louis"
 title_separator: "|"
 subtitle: # site tagline that appears below site title in masthead
-name: "LIANG Houdong (Louis)"
-description: "LIANG Houdong's Personal Website"
+name: "Houdong Liang (Louis)"
+description: "Houdong Liang's Personal Website"
 url: "https://dongdong3272.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "/professional" # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -101,9 +101,9 @@ analytics:
 
 # Site Author
 author:
-  name: "LIANG Houdong (Louis)"
+  name: "Houdong Liang (Louis)"
   avatar: "/assets/images/avatar.jpg"
-  bio: "Fullstack Developer@WeRide.ai, MSCS@UCSD, BSc@HKUST"
+  bio: "AI Agent Engineer @ WeRide, MSCS@UCSD, BSc@HKUST"
   location: "San Jose, CA, United States"
   # email: "holiang@ucsd.edu"  # Commented out to avoid duplicate email link
   links:
@@ -116,34 +116,19 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/dongdong-louis/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/profile.php?id=100040883676044"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dongdong3272"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/dongdong_louis/"
-    - label: "X"
-      icon: "fab fa-fw fa-x-twitter"
-      url: "https://x.com/dong_dong001"
 
 # Site Footer
 footer:
   links:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/profile.php?id=100040883676044"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dongdong3272"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/dongdong-louis/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/dongdong_louis/"
 
 # Reading Files
 include:
@@ -271,10 +256,11 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
+      classes: wide
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
 
 github: [metadata]
