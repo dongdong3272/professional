@@ -370,6 +370,148 @@
       padding-left: 0;
       padding-right: 0;
     }
+
+    /* --- Mobile reading layout (phones / small tablets; desktop unchanged) --- */
+    html {
+      font-size: 16px;
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+
+    #main {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .masthead__inner-wrap {
+      padding-left: 0.85rem;
+      padding-right: 0.85rem;
+    }
+
+    .greedy-nav a.site-title {
+      font-size: 0.95rem;
+      max-width: min(52vw, 12.5rem);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .page__content,
+    .archive {
+      font-size: 1.0625rem;
+      line-height: 1.7;
+    }
+
+    .page__title {
+      font-size: 1.5rem;
+      line-height: 1.3;
+    }
+
+    .page__content h2,
+    .archive h2 {
+      font-size: 1.25rem;
+    }
+
+    .page__content h3,
+    .archive h3 {
+      font-size: 1.125rem;
+    }
+
+    .page__content h4,
+    .archive h4 {
+      font-size: 1.05rem;
+    }
+
+    .archive__subtitle {
+      font-size: 1rem;
+    }
+
+    /* Author rail: MM defaults are ~10–12px; bump for touch reading */
+    .sidebar p,
+    .sidebar li {
+      font-size: 0.9375rem;
+      line-height: 1.5;
+    }
+
+    .sidebar .author__name {
+      font-size: 1.125rem;
+      line-height: 1.3;
+    }
+
+    .author__bio {
+      line-height: 1.45;
+      margin-top: 0.35rem;
+    }
+
+    .author__avatar {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+
+    .author__avatar img {
+      max-width: 3.5rem;
+    }
+
+    .author__content {
+      padding-right: 0.75rem;
+    }
+
+    .author__urls-wrapper button {
+      font-size: 0.875rem;
+      min-height: 2.5rem;
+      padding: 0.45rem 0.85rem;
+    }
+
+    /* Post / related cards */
+    .entries-list .archive__item,
+    .page__related .grid__item .archive__item {
+      padding: 1rem 1.05rem;
+    }
+
+    .entries-list .archive__item-title,
+    .page__related .archive__item-title {
+      font-size: 1.05rem;
+      line-height: 1.35;
+    }
+
+    .entries-list .archive__item-excerpt,
+    .page__related .archive__item-excerpt {
+      font-size: 0.9375rem;
+      line-height: 1.5;
+    }
+
+    .entries-list .page__meta,
+    .page__related .page__meta {
+      font-size: 0.8125rem;
+    }
+
+    /* Code: readable size, scroll inside the block */
+    code {
+      font-size: 0.875rem;
+    }
+
+    div.highlighter-rouge,
+    figure.highlight,
+    .page__content pre {
+      font-size: 0.8125rem;
+      line-height: 1.55;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .page__footer {
+      font-size: 0.875rem;
+    }
+
+    .page__footer-follow .social-icons a,
+    .page__footer-follow li {
+      font-size: 0.875rem;
+    }
+
+    .pagination li a {
+      min-width: 2.75rem;
+      height: 2.75rem;
+      font-size: 0.9375rem;
+    }
   }
 </style>
 
