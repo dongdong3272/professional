@@ -192,8 +192,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+# Homepage shows a short Recent Posts list; full archive lives at /posts/
+# paginate: 5
+# paginate_path: /page:num/
 timezone: Hongkong # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
