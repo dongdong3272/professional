@@ -1,9 +1,16 @@
 ---
+
 title: 'Leetcode 44 Sharing'
-date: 2024-10-02
-permalink: /posts/Leetcode 44 Sharing'
+
+date: 2024-10-08
+
+permalink: /posts/Leetcode 44 Sharing
+
 tags:
+
+  - leetcode
   - job-seeking
+
 ---
 
 ## Problem

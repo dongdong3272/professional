@@ -1,9 +1,16 @@
 ---
+
 title: 'Leetcode 1851 Sharing'
+
 date: 2024-10-02
-permalink: /posts/Leetcode 1851 Sharing'
+
+permalink: /posts/Leetcode 1851 Sharing
+
 tags:
+
+  - leetcode
   - job-seeking
+
 ---
 
 ## Problem
