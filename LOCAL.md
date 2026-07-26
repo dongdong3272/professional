@@ -2,8 +2,8 @@
 
 This is a **Jekyll** site (Minimal Mistakes theme).
 
-- Live site: https://dongdong3272.github.io/professional
-- Repo: https://github.com/dongdong3272/professional
+- Live site: [https://dongdong3272.github.io/professional](https://dongdong3272.github.io/professional)
+- Repo: [https://github.com/dongdong3272/professional](https://github.com/dongdong3272/professional)
 - Deploy: push to `main` → GitHub Actions builds and deploys to GitHub Pages
 
 **Recommendation:** use **WSL (Ubuntu)** for local runs. Jekyll/Ruby is painful on native Windows, and Ruby is not currently installed in PowerShell.
@@ -56,15 +56,17 @@ If the project is on a Windows drive (`/mnt/d/...`), file watching does **not** 
 
 ```bash
 cd /mnt/d/PersonalWeb/professional
+bash scripts/set_last_updated.sh
 bundle exec jekyll serve --force_polling --livereload
 ```
 
+- `bash scripts/set_last_updated.sh` — writes `_data/last_updated.yml` from the latest git commit (homepage “last updated” date). Re-run after new commits if you want the date to refresh while serving.
 - `--force_polling` — detects file changes on `/mnt/d/` (slightly slower than native Linux, but automatic)
 - `--livereload` — refreshes the browser after each rebuild
 
 Then open:
 
-**http://127.0.0.1:4000/professional/**
+**[http://127.0.0.1:4000/professional/](http://127.0.0.1:4000/professional/)**
 
 (`baseurl` is `/professional`, so the root path alone will look broken.)
 
@@ -84,16 +86,19 @@ Stop with `Ctrl+C`.
 
 ```powershell
 cd D:\PersonalWeb\professional
+bash scripts/set_last_updated.sh
 bundle exec jekyll serve
 ```
 
-Same URL: http://127.0.0.1:4000/professional/
+(`bash` needs Git Bash or WSL on the PATH. Alternatively run the same script from WSL first.)
+
+Same URL: [http://127.0.0.1:4000/professional/](http://127.0.0.1:4000/professional/)
 
 ---
 
 ## 3. Publish
 
-Publishing is automatic via [`.github/workflows/jekyll.yml`](.github/workflows/jekyll.yml):
+Publishing is automatic via `[.github/workflows/jekyll.yml](.github/workflows/jekyll.yml)`:
 
 1. Commit your changes.
 2. Push to `main`:
@@ -104,8 +109,8 @@ git commit -m "Your message"
 git push origin main
 ```
 
-3. Wait for the **Deploy Jekyll site to Pages** workflow (GitHub → Actions).
-4. Site updates at: https://dongdong3272.github.io/professional
+1. Wait for the **Deploy Jekyll site to Pages** workflow (GitHub → Actions).
+2. Site updates at: [https://dongdong3272.github.io/professional](https://dongdong3272.github.io/professional)
 
 You can also trigger a deploy manually: GitHub → **Actions** → **Deploy Jekyll site to Pages** → **Run workflow**.
 
@@ -166,9 +171,12 @@ Edit files via `\\wsl$\Ubuntu\home\<your-user>\professional` in Cursor, or open 
 
 ## Quick cheat sheet
 
-| Goal | Command |
-|------|---------|
-| Install deps (once) | `bundle config set --local path 'vendor/bundle'` then `bundle install` |
-| Local preview (on `/mnt/d/`) | `bundle exec jekyll serve --force_polling --livereload` |
-| Open locally | http://127.0.0.1:4000/professional/ |
-| Publish | `git push origin main` |
+
+| Goal                         | Command                                                                    |
+| ---------------------------- | -------------------------------------------------------------------------- |
+| Install deps (once)          | `bundle config set --local path 'vendor/bundle'` then `bundle install`     |
+| Local preview (on `/mnt/d/`) | `bundle exec jekyll serve --force_polling --livereload`                    |
+| Open locally                 | [http://127.0.0.1:4000/professional/](http://127.0.0.1:4000/professional/) |
+| Publish                      | `git push origin main`                                                     |
+
+
