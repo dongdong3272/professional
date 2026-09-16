@@ -1,0 +1,31 @@
+{% assign pdf_path = include.pdf %}
+{% if pdf_path == blank %}
+  <p class="slide-deck-viewer__error">Slide deck path is missing.</p>
+{% else %}
+  <div
+    class="slide-deck-viewer"
+    data-pdf-url="{{ pdf_path | relative_url }}"
+    tabindex="0"
+    role="region"
+    aria-label="Slide deck viewer"
+  >
+    <div class="slide-deck-viewer__toolbar">
+      <div class="slide-deck-viewer__nav">
+        <button type="button" class="slide-deck-viewer__icon" data-action="prev" aria-label="Previous slide">‹</button>
+        <span class="slide-deck-viewer__page" data-page-label aria-live="polite">—</span>
+        <button type="button" class="slide-deck-viewer__icon" data-action="next" aria-label="Next slide">›</button>
+      </div>
+      <div class="slide-deck-viewer__actions">
+        <button type="button" class="slide-deck-viewer__text" data-action="fullscreen">Fullscreen</button>
+        <span class="slide-deck-viewer__sep" aria-hidden="true">·</span>
+        <a class="slide-deck-viewer__text" href="{{ pdf_path | relative_url }}" download>PDF</a>
+      </div>
+    </div>
+    <div class="slide-deck-viewer__stage" data-stage>
+      <canvas class="slide-deck-viewer__canvas" data-canvas></canvas>
+    </div>
+    <p class="slide-deck-viewer__status" data-status>Loading slides…</p>
+    <span class="slide-deck-viewer__sr">Arrow keys change slides.</span>
+  </div>
+  <script defer src="{{ '/assets/js/slide-deck-viewer.js' | relative_url }}"></script>
+{% endif %}
